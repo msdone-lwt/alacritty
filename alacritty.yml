@@ -12,6 +12,7 @@ live_config_reload: true
 env:
   TERM: tmux-256color
 
+
 # Window
 window:
   # Window dimensions in character columns and lines
@@ -20,10 +21,11 @@ window:
     columns: 120
     lines: 35
 
-  # padding:
-  #   x: 10
-  #   y: 10
-# Spread additional padding evenly around the terminal content.
+  padding:
+    x: 10
+    y: 10
+
+  # spread additional padding evenly around the terminal content.
   dynamic_padding: true
 
   dynamic_title: true
@@ -33,9 +35,10 @@ window:
   # Background opacity
   opacity: 0.80
 
-  option_as_alt: Both
-  startup_mode: Windowed
+  option_as_alt: both
+  startup_mode: Maximized
   resize_increments: true
+  title : Alac
 
 # Scrolling
 scrolling:
@@ -60,7 +63,7 @@ cursor:
     blinking: Always
 
   vi_mode_style: 
-    shape: Block
+    shape: Beam
     blicking: Always
 
   unfocused_hollow: true
@@ -107,7 +110,7 @@ debug:
 mouse_bindings:
   - { mouse: Right, action: PasteSelection }
 
-# www.baidu.com
+# www.baidu.com 
 hints:
   enabled:
     - regex:
@@ -131,7 +134,6 @@ selection:
   # the selection clipboard. Otherwise, it will only be copied to the selection
   # clipboard.
   save_to_clipboard: true
-
 
 key_bindings:
   - { key: F4, action: ToggleMaximized }
