@@ -29,7 +29,8 @@ window:
   dynamic_padding: true
 
   dynamic_title: true
-
+  
+  # decorations: ButtoneLess
   decorations: None
 
   # Background opacity
