@@ -20,11 +20,10 @@ window:
     columns: 120
     lines: 35
 
-  padding:
-    x: 10
-    y: 10
-
-  # Spread additional padding evenly around the terminal content.
+  # padding:
+  #   x: 10
+  #   y: 10
+# Spread additional padding evenly around the terminal content.
   dynamic_padding: true
 
   dynamic_title: true
@@ -32,7 +31,7 @@ window:
   decorations: None
 
   # Background opacity
-  opacity: 0.70
+  opacity: 0.80
 
   option_as_alt: Both
   startup_mode: Windowed
