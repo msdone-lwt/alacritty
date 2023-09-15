@@ -20,19 +20,19 @@ window:
     columns: 120
     lines: 35
 
-  # padding:
-  #   x: 10
-  #   y: 10
+  padding:
+    x: 10
+    y: 10
 
   # Spread additional padding evenly around the terminal content.
   dynamic_padding: true
 
   dynamic_title: true
 
-  decorations: Buttonless
+  decorations: None
 
   # Background opacity
-  opacity: 0.90
+  opacity: 0.70
 
   option_as_alt: Both
   startup_mode: Windowed
@@ -115,9 +115,9 @@ hints:
         "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)\
         [^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
       hyperlinks: true
-      command: xdg-open
       # command: xdg-open  -> linux
       # command: start  -> windows
+      command: start
       post_processing: true
       mouse:
         enabled: true
