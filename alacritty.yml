@@ -116,6 +116,8 @@ hints:
         [^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
       hyperlinks: true
       command: xdg-open
+      # command: xdg-open  -> linux
+      # command: start  -> windows
       post_processing: true
       mouse:
         enabled: true
