@@ -30,13 +30,13 @@ window:
 
   dynamic_title: true
   
-  # decorations: ButtoneLess
-  decorations: None
+  # decorations: Buttonless
+  decorations: Buttonless
 
   # Background opacity
   opacity: 0.80
 
-  option_as_alt: both
+  option_as_alt: Both
   startup_mode: Maximized
   resize_increments: true
   title : Alac
@@ -120,7 +120,7 @@ hints:
       hyperlinks: true
       # command: xdg-open  -> linux
       # command: start  -> windows
-      command: start
+      command: open
       post_processing: true
       mouse:
         enabled: true
